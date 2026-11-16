@@ -12,10 +12,11 @@ function Banner() {
     async function fetchData() {
       const request = await axios.get(requests.fetchNetflixOriginals);
      setMovie(
-      request.data.results[
-        Math.floor(Math.random() * request.data.results.length - 1)
-      ]
-     )
+  request.data.results[
+    Math.floor(Math.random() * request.data.results.length)
+  ]
+);
+
      return request;
     }
     fetchData();
@@ -32,10 +33,10 @@ function Banner() {
       className="banner"
       style={{
         backgroundSize: "cover",
-        backgroundImage: `url(
-            "https://image.tmdb.org/t/p/original/${movie.backdrop_path}"
-            )`,
-        backgroundPosition: "center center",
+       backgroundImage: movie?.backdrop_path
+  ? `url("https://image.tmdb.org/t/p/w1280${movie.backdrop_path}")`
+  : "none",
+        backgroundPosition: "center 25%",
       }}
     >
       <div className="banner__contents">
