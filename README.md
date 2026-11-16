@@ -3,7 +3,7 @@
 This project was create with React, Javascript and CSS. 
 
 + react - 19.2.8
-+ JavaScript
++ JavaScript(ES6+)
 + CSS 
 
 ### Features 
