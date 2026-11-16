@@ -14,7 +14,7 @@ This project was create with React, Javascript and CSS.
 
 -**Responsive Design**: Enjoy a user-friendly experience across desktop, tablet, and mobile devices.
 
-- **Interactive UI:** Netflix-inspired styling, hover effects, and intuitive navigation for a familiar streaming experience.
+-**Interactive UI:** Netflix-inspired styling, hover effects, and intuitive navigation for a familiar streaming experience.
 
 ### How to run 
 
