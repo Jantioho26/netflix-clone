@@ -1,13 +1,20 @@
-# netflix clone 
+# Netflix clone 
 
 This project was create with React, Javascript and CSS. 
 
 + react - 19.2.8
++ JavaScript
++ CSS 
 
 ### Features 
 
-- Search function for movies, and Tv shows
-- watch the trailer by clicking a title, using OMDB APIto display and view movie trailers and thumbnails
+-**Movie & TV Show Browsing**: Explore a collection of movies and television shows through a Netflix-inspired interface.
+
+-**Dynamic Content Display**: Browse titles organized into visually engaging categories and movie cards.
+
+-**Responsive Design**: Enjoy a user-friendly experience across desktop, tablet, and mobile devices.
+
+- **Interactive UI:** Netflix-inspired styling, hover effects, and intuitive navigation for a familiar streaming experience.
 
 ### How to run 
 
